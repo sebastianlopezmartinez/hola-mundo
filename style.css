@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #101827;
+    color: white;
+}
+
+.contenedor {
+    text-align: center;
+    padding: 40px;
+    max-width: 600px;
+}
+
+h1 {
+    color: #a3e635;
+    font-size: 3rem;
+}
+
+p {
+    color: #cbd5e1;
+    font-size: 1.2rem;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #a3e635;
+    color: #101827;
+    font-size: 1rem;
+    cursor: pointer;
+}
